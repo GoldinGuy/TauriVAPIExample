@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>NSAppTransportSecurity</key>
+  <dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+          <key>localhost</key>
+          <dict>
+              <key>NSExceptionAllowsInsecureHTTPLoads</key>
+              <true/>
+              <key>NSIncludesSubdomains</key>
+              <true/>
+          </dict>
+          <key>NSMicrophoneUsageDescription</key>
+          <string>paula Requires microphone access in order to capture and transmit audio</string>
+      </dict>
+  </dict>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>paula Requires microphone access in order to capture and transmit audio.</string>
+  <key>NSCameraUsageDescription</key>
+  <string>paula Requires camera access in order to capture and transmit audio.</string>
+  <key>NSCameraUseContinuityCameraDeviceType</key>
+  <true/>
+</dict>
+</plist>
+
